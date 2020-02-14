@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "6ab9c3e3-e281-4ade-84cd-cc9c1ded9379"
+        },
+        "name": {
+            "value": "modernui-ij"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "holDevTestServicePlan"
+        },
+        "serverFarmResourceGroup": {
+            "value": "holDevTestRG"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "sku": {
+            "value": "PremiumV2"
+        },
+        "skuCode": {
+            "value": "P1v2"
+        },
+        "workerSize": {
+            "value": "3"
+        },
+        "workerSizeId": {
+            "value": "3"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "DOCKER|iliasjennaneacr.azurecr.io/modernui:latest"
+        },
+        "dockerRegistryUrl": {
+            "value": "https://iliasjennaneacr.azurecr.io"
+        },
+        "dockerRegistryUsername": {
+            "value": "iliasjennaneacr"
+        },
+        "dockerRegistryPassword": {
+            "value": null
+        },
+        "dockerRegistryStartupCommand": {
+            "value": ""
+        }
+    }
+}
